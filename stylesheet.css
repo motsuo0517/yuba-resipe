@@ -1,0 +1,84 @@
+.top-warapper {
+  height:650px;
+  background-image: url("file:///C:/Users/Ami/Desktop/images/yubatop.webp");
+  background-size:cover;
+  color:white;
+  opacity:1.0;
+}
+
+.container {
+  padding:15px;
+  width:500px;
+  margin:0 auto;
+  opacity:1.0;
+}
+.container h1 {
+  color:lightblue;
+  letter-spacing:5px;
+  font-size:50px;
+}
+
+.container p {
+  font-size:25px;
+}
+
+header {
+  height:50px;
+  background-color:gray;
+}
+
+.header-logo h1 {
+  font-size:30px;
+  font-family:serif;
+  padding-left:10px;
+}
+
+.menu-warapper {
+  height:450px;
+  background-color:pink;
+
+}
+
+.menu-warapper img {
+  position:absolute;
+  height:450px;
+  width:400px;
+}
+
+.cooking-resipe {
+  position:absolute;
+  padding-left:400px;
+}
+
+.cooking-resipe li {
+  border-bottom:1px solid gray;
+}
+
+.cooking-resipe2 p {
+  border-bottom:1px solid gray;
+}
+
+.cooking-resipe2 {
+  padding-left:800px;
+  padding-top:3px;
+}
+
+footer {
+  position:absolute;
+  height:100px;
+  width:100%;
+background-color:blue;
+}
+
+footer img {
+  position:absolute;
+  max-height:80px;
+  padding-top:10px;
+
+}
+
+footer h3 {
+  color:white;
+  padding-left:150px;
+  padding-top:20px;
+}
