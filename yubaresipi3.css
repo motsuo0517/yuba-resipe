@@ -1,9 +1,15 @@
+*{
+box-sizing:border-box;
+}
+
+
 .top-warapper {
-  height:650px;
-  background-image: url("https://raw.githubusercontent.com/motsuo0517/yuba_resipe-/main/yubatop.webp");
+  display:inline-block;
+  width:100%;
+  background-image: url("file:///C:/Users/Ami/Desktop/images/yubatop.webp");
   background-size:cover;
   color:white;
-  opacity:1.0;
+
 }
 
 .container {
@@ -11,10 +17,11 @@
   width:500px;
   margin:0 auto;
   opacity:1.0;
+  text-align:center;
 }
 .container h1 {
   color:lightblue;
-  letter-spacing:5px;
+  letter-spacing:2px;
   font-size:50px;
 }
 
@@ -23,7 +30,8 @@
 }
 
 header {
-  height:50px;
+  display:inline-block;
+  width:100%;
   background-color:gray;
 }
 
@@ -34,24 +42,30 @@ header {
 }
 
 .menu-warapper {
-  height:450px;
+  height:475px;
   background-color:pink;
-
 }
 
-.menu-warapper img {
+.container2 img {
   position:absolute;
-  height:450px;
-  width:400px;
+  width:30%;
+  height:58.5%;
 }
 
 .cooking-resipe {
+  width:20%;
   position:absolute;
-  padding-left:400px;
+  left:550px;
+}
+
+
+.cooking-resipe h1 {
+ padding-left:20px;
 }
 
 .cooking-resipe li {
   border-bottom:1px solid gray;
+
 }
 
 .cooking-resipe span1 {
@@ -115,15 +129,15 @@ header {
 }
 
 .cooking-resipe2 {
-  padding-left:800px;
-  padding-top:3px;
+  width:30%;
+  position:absolute;
+  right:100px;
 }
 
 footer {
-  position:absolute;
-  height:100px;
-  width:98.8%;
-background-color:blue;
+  display:inline-block;
+  background-color:blue;
+  width:100%;
 }
 
 footer img {
@@ -138,3 +152,4 @@ footer h3 {
   padding-left:150px;
   padding-top:20px;
 }
+
