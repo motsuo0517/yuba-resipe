@@ -1,3 +1,63 @@
-@media screen and (max-width:480px) {
+@media(max-width:1000px) {
+
+
+
+}
+
+@media(max-width:670px){
+
+    .header-logo {
+      text-align:left;
+      width:100%;
+    }
+
+    .top-warapper {
+      width:100%;
+    }
+
+    .container h1 {
+      width:70%;
+      text-align:center;
+    }
+
+    .container p {
+      width:70%;
+      text-align:center;
+    }
+
+    .menu-warapper {
+      width:100%;
+      max-height:100%;
+    }
+
+    .container2 img {
+      width:100%;
+      position:static;
+    }
+
+    .cooking-resipe  {
+      position:static;
+      width:auto;
+      text-align:center;
+      background-color:pink;
+    }
+
+    .cooking-resipe2 {
+      width:auto;
+      text-align:center;
+      padding-left:150px;
+    }
+
+
+    .cooking-resipe2 h1 p {
+      position:static;
+    }
+
+    footer {
+      position:static;
+      margin-top:880px;
+
+    }
+
 
 }
